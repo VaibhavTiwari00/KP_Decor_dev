@@ -1,0 +1,457 @@
+:root {
+    --yellow: #ffd130;
+    --black: #000;
+    --brown: #551717;
+    --grey: #818181;
+    --whitesmoke: #d6d6d6;
+    --bg-color: #ffe8c5;
+    --font-family: "Roboto", sans-serif;
+}
+
+header {
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* here is fullscreen images  */
+
+.header-about-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.header-about-img>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* here header content  */
+
+.full-header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+}
+
+.first-section-about {
+    width: 100%;
+    padding: 2% 0 9% 0;
+    z-index: 1;
+}
+
+.first-section-content-about {
+    padding: 5% 10%;
+}
+
+.first-section-content-about>p {
+    color: #fff;
+    line-height: 1.2;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+.first-section-content-about>p:nth-child(2)>a {
+    color: #ffd130;
+    line-height: 1.2;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* body padding to give the width in the whole body */
+
+
+/*fisrt section foe the background image */
+
+.first {
+    width: 100%;
+    font-family: "Baloo Bhai 2", cursive;
+    position: relative;
+}
+
+
+/* first section header */
+
+
+/* second page of the section */
+
+.white-pages {
+    padding: 2% 10%;
+}
+
+.second-page-content {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-gap: 5%;
+    padding-bottom: 5%;
+}
+
+.second-page-content>img {
+    height: 100%;
+    width: 100%;
+}
+
+.second-page-content-right {
+    padding: 3% 5% 0 0;
+}
+
+.right-third-page-content {
+    padding: 5% 5% 0 0;
+}
+
+.yellow-kp-name {
+    width: 180px;
+    height: 34px;
+}
+
+.yellow-kp-name>p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    background-color: #ffd130;
+    text-align: center;
+}
+
+.second-page-content-right> :nth-child(2) {
+    font-size: 45px;
+    font-weight: 500;
+    color: var(--brown);
+    padding: 3% 0;
+}
+
+.fourth-page-content {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-gap: 5%;
+    padding-bottom: 5%;
+}
+
+.fourth-page-content>img {
+    height: 100%;
+    width: 100%;
+}
+
+.fourth-page-content-right {
+    padding: 3% 5% 0 0;
+}
+
+.fourth-page-content-right> :nth-child(2) {
+    font-size: 45px;
+    font-weight: 500;
+    color: var(--brown);
+    padding: 3% 0;
+}
+
+
+/*  bottom bar of tje second page  */
+
+.second-page-content-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid var(--brown);
+    border-bottom: 1px solid var(--brown);
+    padding: 2% 0;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    padding: 0 3%;
+    text-align: center;
+    align-items: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.bottom-third {
+    border: none;
+}
+
+.bottom-no>p {
+    font-size: 82px;
+    font-weight: 400;
+    color: var(--brown);
+    font-family: "Poppins", sans-serif;
+}
+
+.bottom-content>p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #747474;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* third page  */
+
+.right-third-page {
+    grid-template-columns: 55% 1fr;
+}
+
+
+/* fourth page */
+
+.fouurth-page {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    padding: 3% 14%;
+    grid-gap: 7%;
+    background-color: var(--bg-color);
+}
+
+.mission {
+    width: 77%;
+}
+
+.our-content>p:first-child {
+    font-size: 35px;
+    line-height: 40px;
+    color: var(--brown);
+    font-weight: 600;
+    padding-bottom: 0;
+}
+
+.under-div-line {
+    width: 122px;
+    height: 2px;
+    background-color: var(--brown);
+    margin-bottom: 10px;
+}
+
+.our-content>p:nth-child(2) {
+    color: var(--brown);
+    font-size: 15px;
+}
+
+
+/* fifth-page */
+
+.testomonial-parts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10%;
+}
+
+.fifth-page>p {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-bottom: 1%;
+    color: #551717;
+}
+
+.testomonial {
+    padding: 2%;
+    border: 1px solid rgb(218, 216, 216);
+    box-shadow: 12px 12px 5px -4px rgba(216, 215, 215, 0.75);
+    -webkit-box-shadow: 12px 12px 5px -4px rgba(216, 215, 215, 0.75);
+    -moz-box-shadow: 12px 12px 5px -4px rgba(216, 215, 215, 0.75);
+}
+
+.testomonial>p {
+    color: #5e5e5e;
+    font-size: 14px;
+    padding: 2% 0 0 2%;
+}
+
+.testomonial-profile {
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 15% repeat(2, 1fr);
+    place-items: center;
+}
+
+.testomonial-profile>p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.circle {
+    width: 65px;
+    height: 65px;
+    background-color: #222;
+    border-radius: 50%;
+}
+
+.circle>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.testomonial-profile>img {
+    width: 25%;
+}
+
+
+/* media query for the ipad  */
+
+@media (max-width: 1400px) {
+    .first-section-main-content {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .first-section-content-about {
+        padding: 8% 10%;
+    }
+    .second-page-content {
+        grid-template-columns: 35% 1fr;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .bottom-no>p {
+        font-size: 75px;
+    }
+    .white-pages {
+        padding: 2% 5%;
+    }
+    .second-page-content-right>p:nth-child(3)>span {
+        display: none;
+    }
+    .mission {
+        width: 100%;
+    }
+    .second-page-content {
+        grid-template-columns: 50% 1fr;
+    }
+    .fouurth-page {
+        padding: 3% 5%;
+        grid-gap: 7%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .first-section-content-about {
+        padding: 11% 10%;
+    }
+    .bottom-no>p {
+        font-size: 75px;
+    }
+}
+
+@media (max-width: 800px) {
+    .first-section-main-content {
+        padding: 10% 0;
+        grid-template-columns: 43% 1fr;
+    }
+    .second-page-content {
+        grid-template-columns: 40% 1fr;
+    }
+    .second-page-content>img {
+        height: 95%;
+    }
+    .second-page-content-right {
+        padding: 5% 5% 0 0;
+    }
+    .bottom {
+        grid-template-columns: 40% 1fr;
+    }
+    .bottom-no>p {
+        font-size: 29px;
+    }
+    .second-page-content-right>p:first-child {
+        font-size: 29px;
+    }
+    .our-content>p:first-child {
+        font-size: 29px;
+    }
+    .fifth-page>p {
+        font-size: 29px;
+    }
+    .testomonial-profile {
+        grid-template-columns: 15% 60% 25%;
+    }
+    .hamburger-icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        min-height: 260px;
+    }
+    .first-section-content-about {
+        padding: 15% 10%;
+    }
+    .first-section-content-about>p {
+        font-size: 35px;
+    }
+    .nav-items {
+        display: none;
+    }
+    .first-section-main-content {
+        padding: 0;
+        grid-gap: 1%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .first-section-main-content-left>p:first-child {
+        font-size: 29px;
+    }
+    .first-section-main-content-left>p:nth-child(2) {
+        padding: 3% 0;
+        font-size: 16px;
+    }
+    .white-pages {
+        padding: 4% 5%;
+    }
+    .testimonials-heading {
+        font-size: 45px;
+    }
+    .second-page-content {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2%;
+    }
+    .fourth-page-content {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2%;
+    }
+    .second-page-content-bottom {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 15px;
+    }
+    .bottom {
+        border: none;
+        padding: 2% 5%;
+    }
+    .fouurth-page {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5%;
+        padding: 8% 10%;
+    }
+    .testomonial-parts {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 15px;
+        margin-bottom: 12%;
+    }
+    .fifth-page>p {
+        text-align: center;
+    }
+    .our-content {
+        text-align: center;
+    }
+    .our-content>p:first-child {
+        text-align: center;
+    }
+    .our-content-first {
+        padding-bottom: 2%;
+        border-bottom: 1px solid #222;
+    }
+    .fifth-page>p {
+        padding-bottom: 2%;
+    }
+    .under-div-line {
+        margin: 0 auto;
+    }
+}

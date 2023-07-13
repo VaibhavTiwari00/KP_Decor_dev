@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Baloo 2", cursive;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --yellow: #ffd130;
+    --black: #000;
+    --brown: #551717;
+    --grey: #818181;
+    --whitesmoke: #d6d6d6;
+    --bg-color: #ffe8c5;
+    --font-family: "Roboto", sans-serif;
+}
+
+
+/* in header logo and menu  */
+
+
+/* in header logo and menu  */
+
+
+/* height in px  */
+
+.nav-header {
+    width: 100%;
+    height: 130px;
+    padding: 0 9%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    z-index: 1;
+}
+
+.logo-img>img {
+    width: 180px;
+    height: 80px;
+}
+
+.logo-img {
+    cursor: pointer;
+}
+
+.menu-navbar {
+    width: 40%;
+}
+
+.menu-navbar>ul {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-navbar>ul>li {
+    display: flex;
+    align-items: center;
+}
+
+.menu-navbar>ul>li>a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.menu-navbar>ul>li>a:hover {
+    color: var(--yellow);
+}
+
+div[class*="line-00"] {
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 3px;
+}
+
+.line-001 {
+    width: 27px !important;
+}
+
+.line-002 {
+    width: 23px !important;
+}
+
+
+/* only visible for mobile view  */
+
+.hamburger {
+    display: none;
+    z-index: 9999;
+}
+
+.hamburger-cross {
+    display: none;
+    z-index: 9999;
+}
+
+.hamburger>i {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1150px) {
+    .menu-navbar {
+        width: 51%;
+    }
+    /* .header {
+        padding: 0 5% 0 5%;
+    } */
+}
+
+@media screen and (max-width: 1000px) {
+    .menu-navbar {
+        width: 60%;
+    }
+    .nav-header {
+        padding: 0 7% 0 9%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .menu-navbar {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .menu-navbar {
+        width: 55%;
+    }
+    .nav-header {
+        padding: 0 7% 0 4%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav-header {
+        height: 70px;
+        position: relative;
+    }
+    .logo-img>img {
+        width: 120px;
+        height: 55px;
+    }
+    .hamburger {
+        display: block;
+        font-size: 22px;
+    }
+    .menu-navbar {
+        width: 10%;
+    }
+    .menu-navbar {
+        position: absolute;
+        top: 0%;
+        right: -100%;
+        background-color: rgba(0, 0, 0, 0.678);
+        width: 50vw;
+        height: 60vh;
+        /* display: none; */
+    }
+    .menu-navbar>ul {
+        display: block;
+        margin-top: 50px;
+    }
+    .menu-navbar>ul>li {
+        font-size: 22px;
+        color: #fff;
+        padding: 3px 20px;
+    }
+    .nav-tripple-line {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .hamburger>i {
+        font-size: 20px;
+        color: #fff;
+    }
+    .hamburger-cross>i {
+        font-size: 20px;
+        color: #fff;
+    }
+}

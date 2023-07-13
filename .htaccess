@@ -1,0 +1,43 @@
+RewriteEngine on
+
+
+Options -Indexes
+
+# This rool alow user to access file
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Home page route
+ReWriteRule ^$ pages/home.php [NC,L]
+
+# This route work for about us page
+ReWriteRule ^home|home/$ pages/home.php [NC,L]
+
+# This route work for about us page
+ReWriteRule ^aboutus|aboutus/$ pages/aboutus.php [NC,L]
+
+# This route work for contact us page
+ReWriteRule ^contactus|contactus/$ pages/contactus.php [NC,L]
+
+# This route work for all product page
+ReWriteRule ^product|product/$ pages/product.php [NC,L]
+
+# This route work for my account page
+ReWriteRule ^myaccount|myaccount/$ pages/myaccount.php [NC,L]
+
+# This route work for address page
+ReWriteRule ^address|address/$ pages/address.php [NC,L]
+
+# This route work for profile page
+ReWriteRule ^profile|profile/$ pages/profile.php [NC,L]
+
+# This route work for color bar ply
+ReWriteRule ^colorbarply|colorbarply/$ pages/colorbarply.php [NC,L]
+
+# this route work for privacy police page
+ReWriteRule ^privacy-policy|privacy-policy/$ pages/docs/pp.html [NC,L]
+
+#this route work for Cancilation police
+ReWriteRule ^cancelation-policy|cancelation-policy/$ pages/docs/cp.html [NC,L]
+
+#This route work for trams and conditions
+ReWriteRule ^terms-and-conditions|terms-and-conditions/$ pages/docs/tnc.html [NC,L]

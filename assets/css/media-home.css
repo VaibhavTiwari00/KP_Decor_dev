@@ -1,0 +1,365 @@
+@media screen and (max-width:1300px) {}
+
+@media screen and (max-width: 1150px) {
+    .menu-navbar {
+        width: 51%;
+    }
+    /* .header {
+        padding: 0 5% 0 5%;
+    } */
+    .second-section-content {
+        padding-right: 10%;
+    }
+    .second-div-content>p:nth-child(3) {
+        font-size: 18px;
+    }
+    .second-div-content>p:first-child {
+        font-size: 55px;
+    }
+    .third-section {
+        grid-template-columns: 45% 1fr;
+    }
+    .footer-grid {
+        padding: 0 0% 0 5%;
+        grid-template-columns: 40% 15% 15% 1fr;
+    }
+    .footer-logo {
+        padding-right: 25%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .first-section {
+        padding: 5% 0 9% 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .menu-navbar {
+        width: 60%;
+    }
+    .nav-header {
+        padding: 0 7% 0 9%;
+    }
+    /* .first-section-content {
+        padding-right: 1%;
+    } */
+    .first-section {
+        padding: 5% 0 9% 0;
+    }
+    .second-div-content>p:nth-child(3) {
+        font-size: 16px;
+    }
+    .second-section-content>p:first-child {
+        font-size: 35px;
+    }
+    .second-section-content>p:nth-child(2) {
+        font-size: 20px;
+    }
+    .second-section-content>p:nth-child(3) {
+        line-height: 1.4;
+        font-size: 25px;
+    }
+    .second-div-content>p:first-child {
+        font-size: 50px;
+    }
+    .third-section-content>p:first-child {
+        font-weight: 600;
+    }
+    .bg-img-relative {
+        width: 72%;
+    }
+    .bg-img-absolute-slider {
+        right: -35%;
+    }
+    .third-section-content>p:nth-child(2) {
+        font-size: 30px;
+    }
+    .center-grid-slider {
+        grid-template-columns: 230px 230px 230px 230px;
+        grid-gap: 60px;
+    }
+    .center-grid-slider-img {
+        width: 230px;
+    }
+    div[class*="address-"]>a {
+        font-size: 16px;
+    }
+    .footer-grid {
+        grid-template-columns: 27% 20% 20% 1fr;
+    }
+    .footer-logo {
+        padding-right: 0%;
+    }
+    .second-section-content {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .menu-navbar {
+        width: 60%;
+    }
+    .fifth-section {
+        width: 100%;
+        height: max-content;
+        padding: 2% 5%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 30px;
+    }
+    .first-section {
+        padding: 7% 0 9% 0;
+    }
+    div[class*="address-"]>img {
+        width: 30px;
+        height: 30px;
+    }
+    .second-div-content {
+        padding: 3% 8%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .menu-navbar {
+        width: 55%;
+    }
+    .nav-header {
+        padding: 0 7% 0 4%;
+    }
+    .first-section {
+        padding: 10% 10% 5% 0;
+    }
+    .first-section-content {
+        padding: 5% 5%;
+    }
+    .second-section {
+        padding: 10% 0;
+    }
+    .second-section-content {
+        padding-right: 2%;
+    }
+    .second-section-content {
+        padding: 0% 5%;
+    }
+    .second-section-content>p:first-child {
+        font-size: 32px;
+    }
+    .button-second-section>button {
+        padding: 5px 20px;
+    }
+    .second-div-content>p:first-child {
+        font-size: 40px;
+    }
+    .third-section {
+        padding: 5% 0 5% 0;
+    }
+    .grid-slide {
+        grid-template-columns: 20% 60% 1fr;
+    }
+    .footer-grid {
+        padding: 0 0 0 0.5%;
+    }
+}
+
+@media screen and (max-width:700px) {}
+
+@media screen and (max-width: 500px) {
+    header {
+        min-height: 260px;
+    }
+    .icons {
+        top: 65%;
+    }
+    .slide {
+        height: 260px;
+    }
+    .st>img {
+        height: 260px;
+    }
+    .first-section-content>p {
+        font-size: 31px;
+    }
+    .nav-header {
+        height: 70px;
+    }
+    .logo-img>img {
+        width: 120px;
+        height: 55px;
+    }
+    .menu-navbar>ul>li:nth-child(1) {
+        display: none;
+    }
+    .menu-navbar>ul>li:nth-child(2) {
+        display: none;
+    }
+    .menu-navbar>ul>li:nth-child(3) {
+        display: none;
+    }
+    .menu-navbar>ul>li:nth-child(4) {
+        display: none;
+    }
+    .hamburger {
+        /* display: block; */
+        font-size: 22px;
+    }
+    .menu-navbar {
+        width: 10%;
+    }
+    .first-section {
+        grid-template-columns: 100%;
+        padding: 0;
+        /* border: 1px solid #000; */
+    }
+    .first-section-content {
+        padding: 5%;
+    }
+    .second-section {
+        padding: 3% 0;
+    }
+    .second-section {
+        grid-template-columns: 100%;
+    }
+    .second-section-content {
+        padding-right: 0%;
+    }
+    .second-section-content {
+        padding: 5% 3%;
+    }
+    .second-div-content {
+        padding: 3% 5%;
+    }
+    .right-arrow-0 {
+        top: 45%;
+        right: -13px;
+        width: 26px;
+        height: 26px;
+    }
+    .left-arrow-0 {
+        top: 45%;
+        left: -13px;
+        width: 26px;
+        height: 26px;
+    }
+    .second-div-content>p:first-child {
+        font-size: 35px;
+    }
+    .second-div-content>p:nth-child(2) {
+        font-size: 20px;
+    }
+    .second-div-content>p:nth-child(3) {
+        font-size: 14px;
+    }
+    .third-section {
+        grid-template-columns: 100%;
+    }
+    .bg-img-relative {
+        display: none;
+    }
+    .third-section-bg-ph {
+        width: 100%;
+        display: block;
+        height: 400px;
+        position: relative;
+    }
+     ::-webkit-scrollbar {
+        display: none !important;
+    }
+    .third-section-bg-ph>img {
+        width: 100%;
+        height: 60%;
+    }
+    .bg-img-absolute-slider-ph {
+        position: absolute;
+        width: 90%;
+        height: 75%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        overflow: hidden;
+        top: 20%;
+        left: 5%;
+    }
+    /* .bg-img-absolute-slider-ph>img {
+        width: 400px;
+    } */
+    .third-section-content {
+        padding: 5% 0 0 0;
+    }
+    .third-section-content>p {
+        padding-left: 5%;
+    }
+    .fifth-section-testimonals>p {
+        font-size: 30px;
+    }
+    .fifth-section-post>p {
+        font-size: 30px;
+    }
+    .fifth-section-testimonals-cmt {
+        height: 200px;
+        grid-template-columns: 120px 1fr;
+        grid-gap: 5px;
+        padding: 10px 0;
+    }
+    .fifth-section {
+        width: 100%;
+        height: max-content;
+        padding: 2% 3%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 38px;
+    }
+    .sixth-section {
+        width: 100%;
+        padding: 5%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 30px;
+    }
+    .sixth-section-map {
+        padding: 5%;
+    }
+    .name-mail>input {
+        padding: 5px;
+    }
+    .footer-logo {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    div[class*="footer-"]>ul {
+        margin-top: 0px;
+    }
+    .address-location {
+        margin-top: 5px;
+    }
+    .footend-nav>p>a {
+        font-size: 15px;
+    }
+    .footend-nav {
+        padding: 0 1%;
+        background-color: #ffcf88;
+    }
+    .footend-nav>p {
+        font-size: 12px;
+    }
+    .footer-link {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .footer-service {
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    .footer-address {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    .footer-grid {
+        padding: 0 2%;
+    }
+}
+
+
+/* 
+<footer class="footer"><!-- grid --><div class="footer-grid"><!-- same as header logo --><!-- padding-right is use for alignment --><div class="footer-logo"><div class="logo-img"><img src="<?= get_img() ?>logo.png"></div><div class="footerlogo-content"><p>Lorem ipsum dolor,
+sit amet elit. Voluptatibus blanditiis quae perspiciatis non? Earum sint provident dignissimos nemo aspernatur,
+necessitatibus. </p></div><div class="share-us"><p>Share With Us</p><span></span></div><div class="footerlogo-icons"><img src="<?= get_img() ?>icons8-facebook-48 2.png"><img src="<?= get_img() ?>icons8-instagram-reels-48 2.png" alt=""><img src="<?= get_img() ?>icons8-twitter-48 2.png" alt=""></div></div><div class="footer-link"><p>Useful Link</p><ul><li><a href="#">Color Bar Ply</a></li><li><a href="#">Ply Categary</a></li><li><a href="#">Product Categary</a></li><li><a href="#">About Us</a></li><li><a href="#">Contact Us</a></li></ul></div><div class="footer-service"><p>Our Service</p><ul><li><a href="#">Color Bar Ply</a></li><li><a href="#">Ply Categary</a></li><li><a href="#">Product Categary</a></li><li><a href="#">About Us</a></li><li><a href="#">Contact Us</a></li></ul></div><div class="footer-address"><p>Get In Touch</p><div class="address-location"><img src="<?= get_img() ?>locate.png" alt=""><a href="#">15/985 Nehru nagar Shuklaganj (Unnao-209861) </a></div><div class="address-mail"><img src="<?= get_img() ?>mail.png" alt=""><a href="#">Info@kpdecor.in</a></div><br><div class="address-call"><img src="<?= get_img() ?>call.png" alt=""><a href="#">+91 9839625577</a></div></div></div><div class="footend-nav"><p>Copyright @2021 KP Decor. All Rights Reserved.</p><p>Powered by: <a href="#">Growupnext</a></div></footer> */
